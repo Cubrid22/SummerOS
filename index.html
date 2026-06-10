@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- saved from url=(0046)file:///Users/yasmani/Downloads/index_101.html -->
+<!-- saved from url=(0046)file:///Users/yasmani/Downloads/index_106.html -->
 <html lang="en" data-__embeded-gyazo-content-j-s="5.16.0" data-__gyazo-expander-enabled="true"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -454,8 +454,8 @@ footer{text-align:center;font-family:'DM Mono',monospace;font-size:11px;color:va
         <div class="stat-label">⏳ Summer Ends</div>
         <div class="cd-nums">
           <div class="cd-block"><div class="cd-num" id="cdDays">82</div><div class="cd-unit">days</div></div>
-          <div class="cd-block"><div class="cd-num" id="cdHrs">22</div><div class="cd-unit">hrs</div></div>
-          <div class="cd-block"><div class="cd-num" id="cdMin">15</div><div class="cd-unit">min</div></div>
+          <div class="cd-block"><div class="cd-num" id="cdHrs">21</div><div class="cd-unit">hrs</div></div>
+          <div class="cd-block"><div class="cd-num" id="cdMin">54</div><div class="cd-unit">min</div></div>
         </div>
       </div>
     </div>
@@ -510,7 +510,32 @@ footer{text-align:center;font-family:'DM Mono',monospace;font-size:11px;color:va
     <div class="sec-label">Week Plan</div>
     <div class="sec-title">Day Planner</div>
     <!-- WEEKLY GOAL BOXES -->
-    <div id="dpGoalBoxes" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px;margin-bottom:24px;"></div>
+    <div id="dpGoalBoxes" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px;margin-bottom:24px;">
+      <div style="background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:12px 16px;">
+        <div style="font-family:&#39;DM Mono&#39;,monospace;font-size:10px;letter-spacing:1.5px;color:var(--muted2);margin-bottom:8px;">🎯 WEEKLY GOAL</div>
+        <div id="dpGoalList_goal"><div style="display: flex; align-items: center; gap: 8px; padding: 5px 0px; border-bottom: 1px solid var(--border); position: relative;"><div style="width: 16px; height: 16px; border-radius: 4px; flex-shrink: 0; cursor: pointer; display: flex; align-items: center; justify-content: center; border: 1.5px solid var(--border2); background: none;"></div><span title="Double-click to edit" style="font-size: 13px; flex: 1 1 0%; cursor: text; color: rgb(91, 142, 240);">1. Gaming Long-form Video</span><div title="Change color" style="width: 10px; height: 10px; border-radius: 50%; background: rgb(91, 142, 240); flex-shrink: 0; cursor: pointer; border: 1.5px solid var(--border2);"></div><button style="background: none; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; color: var(--muted2); cursor: pointer; font-size: 14px; padding: 0px 2px; flex-shrink: 0;">×</button></div><div style="display: flex; align-items: center; gap: 8px; padding: 5px 0px; border-bottom: 1px solid var(--border); position: relative;"><div style="width: 16px; height: 16px; border-radius: 4px; flex-shrink: 0; cursor: pointer; display: flex; align-items: center; justify-content: center; border: 1.5px solid var(--border2); background: none;"></div><span title="Double-click to edit" style="font-size: 13px; flex: 1 1 0%; cursor: text; color: rgb(93, 186, 122);">2. Teaching video started</span><div title="Change color" style="width: 10px; height: 10px; border-radius: 50%; background: rgb(93, 186, 122); flex-shrink: 0; cursor: pointer; border: 1.5px solid var(--border2);"></div><button style="background: none; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; color: var(--muted2); cursor: pointer; font-size: 14px; padding: 0px 2px; flex-shrink: 0;">×</button></div><div style="display: flex; align-items: center; gap: 8px; padding: 5px 0px; border-bottom: 1px solid var(--border); position: relative;"><div style="width: 16px; height: 16px; border-radius: 4px; flex-shrink: 0; cursor: pointer; display: flex; align-items: center; justify-content: center; border: 1.5px solid var(--border2); background: none;"></div><span title="Double-click to edit" style="font-size: 13px; flex: 1 1 0%; cursor: text; color: rgb(176, 127, 239);">3. Make Vlog Plan</span><div title="Change color" style="width: 10px; height: 10px; border-radius: 50%; background: rgb(176, 127, 239); flex-shrink: 0; cursor: pointer; border: 1.5px solid var(--border2);"></div><button style="background: none; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; color: var(--muted2); cursor: pointer; font-size: 14px; padding: 0px 2px; flex-shrink: 0;">×</button></div></div>
+        <div style="display:flex;gap:6px;margin-top:8px;">
+          <input id="dpGoalInput_goal" placeholder="Add a goal..." style="flex:1;background:var(--surface2);border:1px solid var(--border2);border-radius:7px;padding:6px 10px;color:var(--text);font-family:&#39;DM Sans&#39;,sans-serif;font-size:12px;outline:none;" onfocus="this.style.borderColor=&#39;var(--orange)&#39;" onblur="this.style.borderColor=&#39;var(--border2)&#39;" onkeydown="if(event.key===&#39;Enter&#39;)dpAdd(&#39;goal&#39;)">
+          <button onclick="dpAdd(&#39;goal&#39;)" style="background:var(--orange);border:none;border-radius:7px;padding:6px 12px;color:#fff;font-family:&#39;DM Mono&#39;,monospace;font-size:11px;cursor:pointer;">+ ADD</button>
+        </div>
+      </div>
+      <div style="background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:12px 16px;">
+        <div style="font-family:&#39;DM Mono&#39;,monospace;font-size:10px;letter-spacing:1.5px;color:var(--muted2);margin-bottom:8px;">🎬 CONTENT FOCUS</div>
+        <div id="dpGoalList_content"><div style="font-size: 11px; color: var(--muted2); padding: 4px 0px 6px;">Nothing yet — add below</div></div>
+        <div style="display:flex;gap:6px;margin-top:8px;">
+          <input id="dpGoalInput_content" placeholder="Add a focus..." style="flex:1;background:var(--surface2);border:1px solid var(--border2);border-radius:7px;padding:6px 10px;color:var(--text);font-family:&#39;DM Sans&#39;,sans-serif;font-size:12px;outline:none;" onfocus="this.style.borderColor=&#39;var(--orange)&#39;" onblur="this.style.borderColor=&#39;var(--border2)&#39;" onkeydown="if(event.key===&#39;Enter&#39;)dpAdd(&#39;content&#39;)">
+          <button onclick="dpAdd(&#39;content&#39;)" style="background:var(--orange);border:none;border-radius:7px;padding:6px 12px;color:#fff;font-family:&#39;DM Mono&#39;,monospace;font-size:11px;cursor:pointer;">+ ADD</button>
+        </div>
+      </div>
+      <div style="background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:12px 16px;">
+        <div style="font-family:&#39;DM Mono&#39;,monospace;font-size:10px;letter-spacing:1.5px;color:var(--muted2);margin-bottom:8px;">💰 BUSINESS TARGET</div>
+        <div id="dpGoalList_business"><div style="font-size: 11px; color: var(--muted2); padding: 4px 0px 6px;">Nothing yet — add below</div></div>
+        <div style="display:flex;gap:6px;margin-top:8px;">
+          <input id="dpGoalInput_business" placeholder="Add a target..." style="flex:1;background:var(--surface2);border:1px solid var(--border2);border-radius:7px;padding:6px 10px;color:var(--text);font-family:&#39;DM Sans&#39;,sans-serif;font-size:12px;outline:none;" onfocus="this.style.borderColor=&#39;var(--orange)&#39;" onblur="this.style.borderColor=&#39;var(--border2)&#39;" onkeydown="if(event.key===&#39;Enter&#39;)dpAdd(&#39;business&#39;)">
+          <button onclick="dpAdd(&#39;business&#39;)" style="background:var(--orange);border:none;border-radius:7px;padding:6px 12px;color:#fff;font-family:&#39;DM Mono&#39;,monospace;font-size:11px;cursor:pointer;">+ ADD</button>
+        </div>
+      </div>
+    </div>
     <div class="dp-week-nav">
       <button class="dp-nav-btn" onclick="shiftWeek(-1)">← PREV</button>
       <div class="dp-week-label" id="dpWeekLabel">This Week<span>Jun 8 – Jun 14</span></div>
@@ -1574,41 +1599,113 @@ function toggleDayOpen(dateKey){
   dp[dateKey].open=!dp[dateKey].open;
   store({dayPlan:dp});buildDayPlanner();
 }
-function buildWeekGoalBoxes(){
-  const weekStart=getWeekStart(dpWeekOffset);
-  const wKey=`${weekStart.getFullYear()}-${String(weekStart.getMonth()+1).padStart(2,'0')}-${String(weekStart.getDate()).padStart(2,'0')}`;
-  const goalBoxes=document.getElementById('dpGoalBoxes');
-  if(!goalBoxes)return;
-  const wp=_cache.weeklyPlan||{};
-  const wpData=wp[wKey]||{};
-  const fields=[
-    {key:'goal',icon:'🎯',label:'WEEKLY GOAL',placeholder:'Add a goal...'},
-    {key:'content',icon:'🎬',label:'CONTENT FOCUS',placeholder:'Add a focus...'},
-    {key:'business',icon:'💰',label:'BUSINESS TARGET',placeholder:'Add a target...'}
-  ];
-  goalBoxes.innerHTML=fields.map(f=>{
-    const items=(wpData[f.key]||[]);
-    const rows=items.length?items.map((it,i)=>`
-      <div style="display:flex;align-items:center;gap:8px;padding:5px 0;border-bottom:1px solid var(--border);">
-        <div onclick="dpToggleGoalItem('${wKey}','${f.key}',${i})" style="width:16px;height:16px;border-radius:4px;border:1.5px solid ${it.done?'var(--green)':'var(--border2)'};background:${it.done?'var(--green)':'none'};flex-shrink:0;cursor:pointer;display:flex;align-items:center;justify-content:center;">
-          ${it.done?'<svg viewBox="0 0 12 12" fill="none" style="width:9px;height:9px"><path d="M2 6L5 9L10 3" stroke="#0d0d0d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>':''}
-        </div>
-        <span style="font-size:13px;color:var(--text);flex:1;${it.done?'text-decoration:line-through;opacity:.45;':''}">${it.text}</span>
-        <button onclick="dpDeleteGoalItem('${wKey}','${f.key}',${i})" style="background:none;border:none;color:var(--muted2);cursor:pointer;font-size:13px;padding:0 2px;line-height:1;opacity:0.5;" onmouseover="this.style.color='#e85a5a';this.style.opacity='1'" onmouseout="this.style.color='var(--muted2)';this.style.opacity='0.5'">×</button>
-      </div>`).join(''):`<div style="font-family:'DM Mono',monospace;font-size:11px;color:var(--muted2);padding:4px 0 6px;">Nothing yet — add below</div>`;
-    return `<div style="background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:12px 16px;">
-      <div style="font-family:'DM Mono',monospace;font-size:10px;letter-spacing:1.5px;color:var(--muted2);margin-bottom:8px;">${f.icon} ${f.label}</div>
-      <div>${rows}</div>
-      <div style="display:flex;gap:6px;margin-top:8px;">
-        <input id="dpGoalInput_${wKey}_${f.key}" placeholder="${f.placeholder}"
-          style="flex:1;background:var(--surface2);border:1px solid var(--border2);border-radius:7px;padding:6px 10px;color:var(--text);font-family:'DM Sans',sans-serif;font-size:12px;outline:none;"
-          onfocus="this.style.borderColor='var(--orange)'" onblur="this.style.borderColor='var(--border2)'"
-          onkeydown="if(event.key==='Enter')dpAddGoalItem('${wKey}','${f.key}')"/>
-        <button onclick="dpAddGoalItem('${wKey}','${f.key}')" style="background:var(--orange);border:none;border-radius:7px;padding:6px 12px;color:#fff;font-family:'DM Mono',monospace;font-size:11px;cursor:pointer;white-space:nowrap;">+ ADD</button>
-      </div>
-    </div>`;
-  }).join('');
+function dpGetWKey(){
+  const ws=getWeekStart(dpWeekOffset);
+  return ws.getFullYear()+'-'+String(ws.getMonth()+1).padStart(2,'0')+'-'+String(ws.getDate()).padStart(2,'0');
 }
+const DP_GOAL_COLORS=['var(--text)','var(--orange)','var(--green)','#5b8ef0','#f5a623','#e85a5a','#b07fef','#5dba7a','var(--accent)'];
+function dpRenderGoalList(field){
+  const wKey=dpGetWKey();
+  const items=((_cache.weeklyPlan||{})[wKey]||{})[field]||[];
+  const el=document.getElementById('dpGoalList_'+field);
+  if(!el)return;
+  el.innerHTML='';
+  if(!items.length){
+    const msg=document.createElement('div');
+    msg.style.cssText='font-size:11px;color:var(--muted2);padding:4px 0 6px;';
+    msg.textContent='Nothing yet \u2014 add below';
+    el.appendChild(msg);return;
+  }
+  items.forEach(function(it,i){
+    const row=document.createElement('div');
+    row.style.cssText='display:flex;align-items:center;gap:8px;padding:5px 0;border-bottom:1px solid var(--border);position:relative;';
+    const chk=document.createElement('div');
+    chk.style.cssText='width:16px;height:16px;border-radius:4px;flex-shrink:0;cursor:pointer;display:flex;align-items:center;justify-content:center;border:1.5px solid '+(it.done?'var(--green)':'var(--border2)')+';background:'+(it.done?'var(--green)':'none')+';';
+    if(it.done)chk.innerHTML='<svg viewBox="0 0 12 12" fill="none" style="width:9px;height:9px"><path d="M2 6L5 9L10 3" stroke="#0d0d0d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+    chk.onclick=function(){dpToggle(field,i);};
+    const dot=document.createElement('div');
+    const itemColor=it.color||'var(--text)';
+    dot.style.cssText='width:10px;height:10px;border-radius:50%;background:'+itemColor+';flex-shrink:0;cursor:pointer;border:1.5px solid var(--border2);';
+    dot.title='Change color';
+    dot.onclick=function(e){e.stopPropagation();dpShowColorPicker(field,i,dot);};
+    const txt=document.createElement('span');
+    txt.style.cssText='font-size:13px;flex:1;cursor:text;'+(it.done?'text-decoration:line-through;opacity:.45;':'')+'color:'+(it.done?'var(--muted)':itemColor)+';';
+    txt.textContent=it.text;
+    txt.title='Double-click to edit';
+    txt.ondblclick=function(e){
+      e.stopPropagation();
+      const inp=document.createElement('input');
+      inp.value=it.text;
+      inp.style.cssText='flex:1;background:var(--surface2);border:1px solid var(--orange);border-radius:5px;padding:2px 6px;color:'+itemColor+';font-size:13px;font-family:DM Sans,sans-serif;outline:none;width:100%;';
+      txt.replaceWith(inp);
+      inp.focus();inp.select();
+      const save=function(){
+        const newText=inp.value.trim();
+        if(newText){const wk=dpGetWKey();const wp=_cache.weeklyPlan||{};const its=(wp[wk]||{})[field]||[];if(its[i])its[i].text=newText;store({weeklyPlan:wp});}
+        dpRenderGoalList(field);
+      };
+      inp.onblur=save;
+      inp.onkeydown=function(e){if(e.key==='Enter')inp.blur();if(e.key==='Escape')dpRenderGoalList(field);};
+    };
+    const del=document.createElement('button');
+    del.style.cssText='background:none;border:none;color:var(--muted2);cursor:pointer;font-size:14px;padding:0 2px;flex-shrink:0;';
+    del.textContent='\xd7';
+    del.onclick=function(){dpDel(field,i);};
+    row.appendChild(chk);row.appendChild(txt);row.appendChild(dot);row.appendChild(del);
+    el.appendChild(row);
+  });
+}
+function dpShowColorPicker(field,idx,anchor){
+  const old=document.getElementById('dpColorPicker');if(old)old.remove();
+  const picker=document.createElement('div');
+  picker.id='dpColorPicker';
+  picker.style.cssText='position:absolute;z-index:999;background:var(--surface2);border:1px solid var(--border2);border-radius:10px;padding:8px;display:flex;flex-wrap:wrap;gap:6px;width:140px;box-shadow:0 4px 16px rgba(0,0,0,0.4);left:0;top:24px;';
+  DP_GOAL_COLORS.forEach(function(c){
+    const sw=document.createElement('div');
+    sw.style.cssText='width:20px;height:20px;border-radius:50%;background:'+c+';cursor:pointer;border:2px solid transparent;transition:border-color .15s;';
+    sw.onmouseover=function(){sw.style.borderColor='#fff';};
+    sw.onmouseout=function(){sw.style.borderColor='transparent';};
+    sw.onclick=function(e){
+      e.stopPropagation();
+      const wk=dpGetWKey();const wp=_cache.weeklyPlan||{};
+      const its=(wp[wk]||{})[field]||[];
+      if(its[idx])its[idx].color=c;
+      store({weeklyPlan:wp});picker.remove();dpRenderGoalList(field);
+    };
+    picker.appendChild(sw);
+  });
+  anchor.style.position='relative';
+  anchor.appendChild(picker);
+  setTimeout(function(){document.addEventListener('click',function h(){picker.remove();document.removeEventListener('click',h);});},0);
+}
+function dpRenderAll(){['goal','content','business'].forEach(dpRenderGoalList);}
+function dpAdd(field){
+  const inp=document.getElementById('dpGoalInput_'+field);
+  if(!inp)return;
+  const text=inp.value.trim();if(!text)return;
+  const wKey=dpGetWKey();
+  const wp=_cache.weeklyPlan||{};
+  if(!wp[wKey])wp[wKey]={};
+  if(!Array.isArray(wp[wKey][field]))wp[wKey][field]=[];
+  wp[wKey][field].push({text,done:false});
+  inp.value='';
+  store({weeklyPlan:wp});dpRenderGoalList(field);
+}
+function dpToggle(field,idx){
+  const wKey=dpGetWKey();
+  const wp=_cache.weeklyPlan||{};
+  const items=(wp[wKey]||{})[field]||[];
+  if(items[idx])items[idx].done=!items[idx].done;
+  store({weeklyPlan:wp});dpRenderGoalList(field);
+}
+function dpDel(field,idx){
+  const wKey=dpGetWKey();
+  const wp=_cache.weeklyPlan||{};
+  const items=(wp[wKey]||{})[field]||[];
+  items.splice(idx,1);
+  store({weeklyPlan:wp});dpRenderGoalList(field);
+}
+function buildWeekGoalBoxes(){dpRenderAll();}
 
 function buildDayPlanner(){
   const weekStart=getWeekStart(dpWeekOffset);
@@ -1860,29 +1957,6 @@ function mpGetWeeks(monthStart,monthEnd){
   return weeks;
 }
 
-// ── Weekly goal checklist helpers ────────────────────────────────
-function dpAddGoalItem(weekKey,field){
-  const inputEl=document.getElementById(`dpGoalInput_${weekKey}_${field}`);
-  if(!inputEl)return;
-  const text=inputEl.value.trim();if(!text)return;
-  const wp=_cache.weeklyPlan||{};
-  if(!wp[weekKey])wp[weekKey]={};
-  if(!Array.isArray(wp[weekKey][field]))wp[weekKey][field]=[];
-  wp[weekKey][field].push({text,done:false});
-  store({weeklyPlan:wp});buildWeekGoalBoxes();
-}
-function dpToggleGoalItem(weekKey,field,idx){
-  const wp=_cache.weeklyPlan||{};
-  const items=(wp[weekKey]||{})[field]||[];
-  if(items[idx])items[idx].done=!items[idx].done;
-  store({weeklyPlan:wp});buildWeekGoalBoxes();
-}
-function dpDeleteGoalItem(weekKey,field,idx){
-  const wp=_cache.weeklyPlan||{};
-  const items=(wp[weekKey]||{})[field]||[];
-  items.splice(idx,1);
-  store({weeklyPlan:wp});buildWeekGoalBoxes();
-}
 
 
 function mpSaveWeekNote(weekKey,val){
@@ -2106,9 +2180,10 @@ loadTheme();
   else if(savedTab==='review'){buildDashboard();buildReviews();}
   else if(savedTab==='checklist'){buildDashboard();buildChecklist();}
   else buildDashboard();
-  // populate goal boxes immediately without rebuilding the full week grid
+  // goal boxes are in the planner tab — activate panel first then render boxes
+  document.getElementById('tab-planner').classList.add('active');
   buildWeekGoalBoxes();
-
+  if(savedTab!=='planner')document.getElementById('tab-planner').classList.remove('active');
   document.body.classList.add('ready');
     document.querySelector('.wrapper').style.opacity='0';
   document.querySelector('.wrapper').style.transition='opacity .25s ease';
